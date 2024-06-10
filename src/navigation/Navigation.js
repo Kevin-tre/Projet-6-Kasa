@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Footer from "../layout/footer/Footer";
 import Header from "../layout/header/Header";
 import AboutUs from "../pages/about-us/AboutUs";
 import Error404 from "../pages/error-404/Error404";
@@ -23,6 +24,7 @@ const Navigation = () => {
           />
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
   );
 };
