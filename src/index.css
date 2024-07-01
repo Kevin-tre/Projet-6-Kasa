@@ -3,7 +3,7 @@
 #root {
   max-width: 1440px;
   width: 1440px;
-  padding: 0 50px;
+  padding: 0 100px;
   box-sizing: border-box;
 }
 
@@ -16,6 +16,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  min-height: calc(100vh - 339px);
+  box-sizing: border-box;
 }
 
 code {
