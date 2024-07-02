@@ -1,0 +1,18 @@
+.host-info {
+    display: flex;
+    width: 167px;
+    height: 64px;
+
+    & p {
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 500;
+        text-align: right;
+        color: #FF6060
+    }
+
+    & img {
+        width: 64px;
+        height: 64px;
+    }
+}

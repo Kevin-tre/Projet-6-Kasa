@@ -3,7 +3,7 @@ import "../components/collapse.scss";
 
 const Collapse = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-  const { aboutList } = props;
+  const { title, content } = props;
 
   const toggleCollapse = () => {
     setIsOpen(!isOpen);
@@ -12,21 +12,24 @@ const Collapse = (props) => {
   return (
     <div className="collapse-container">
       <div className="collapse">
-        <h3>{aboutList.title}</h3>
+        <h3>{title}</h3>
         <button className={isOpen ? "active" : ""} onClick={toggleCollapse}>
           <i className="fa-solid fa-chevron-up"></i>
         </button>
       </div>
-      {isOpen && (
-        <div className="collapse-content-open">
-          <p>{aboutList.content}</p>
-        </div>
-      )}
-      {!isOpen && (
-        <div className="collapse-content-close">
-          <p>{aboutList.content}</p>
-        </div>
-      )}
+      <div className={`collapse-content ${isOpen ? "open" : "close"}`}>
+        {Array.isArray(content) ? (
+          <ul>
+            {content.map((cnt, index) => (
+              <li key={index} className="li-collapse">
+                {cnt}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>{content}</p>
+        )}
+      </div>
     </div>
   );
 };

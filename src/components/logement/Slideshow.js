@@ -5,7 +5,6 @@ import "./slideshow.scss";
 
 const Slideshow = ({ pictures, title }) => {
   const [slide, setSlide] = useState(0);
-  console.log(title);
 
   const nextSlide = () => {
     setSlide(slide === pictures.length - 1 ? 0 : slide + 1);

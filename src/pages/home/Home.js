@@ -15,7 +15,7 @@ const Home = () => {
       />
       <div className="card-container">
         {logements.map((logement) => (
-          <Card logement={logement} />
+          <Card key={logement.id} logement={logement} />
         ))}
       </div>
     </div>

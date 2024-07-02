@@ -1,14 +1,17 @@
 .header-container {
     display: flex;
     justify-content: space-between;
+    height: 130px;
     align-items: center;
-    padding: 20px 55px;
-    margin-bottom: 15px;
+    width: 1240px;
+    box-sizing: border-box;
 }
 
 nav {
     display: flex;
-    gap: 30px;
+    justify-content: space-around;
+    width: 309px;
+    height: 34px;
 
     & a {
         text-decoration: none;
