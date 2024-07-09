@@ -2,7 +2,6 @@
 
 #root {
   max-width: 1440px;
-  width: 1440px;
   padding: 0 100px;
   box-sizing: border-box;
 }
@@ -26,4 +25,10 @@ main {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 0 10px;
+  }
 }
