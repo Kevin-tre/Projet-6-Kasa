@@ -22,11 +22,15 @@
 
 
 .slide {
-    width: 1240px;
+    width: 100%;
     position: relative;
     object-fit: cover;
     height: 415px;
     border-radius: 25px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .slide-hidden {

@@ -4,11 +4,18 @@
     align-items: center;
     padding: 10px;
     width: 100%;
+    box-sizing: border-box;
+
 }
 
 .collapse-about-us {
     width: 80%;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        margin: 27px auto;
+    }
 }
 
 .collapse {
@@ -21,11 +28,19 @@
     background-color: #FF6060;
     position: relative;
 
+    @media (max-width: 768px) {
+        height: 30px;
+    }
+
     & h3 {
         font-size: 24px;
         font-weight: 700;
         font-family: 'Montserrat';
         color: #FFFFFF;
+
+        @media (max-width: 768px) {
+            font-size: 13px;
+        }
     }
 
     & button {
@@ -35,8 +50,14 @@
         position: absolute;
         font-size: 30px;
         top: 15px;
+        width: 30px;
         right: 20px;
         cursor: pointer;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+            width: 16px;
+        }
     }
 }
 

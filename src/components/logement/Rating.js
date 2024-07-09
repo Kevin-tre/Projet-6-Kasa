@@ -9,7 +9,7 @@ const Rating = ({ rating }) => {
         key={index}
         className={index < rating ? "filled-star" : "empty-star"}
       >
-        <i class="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
       </span>
     ));
   return <div className="rating">{stars}</div>;

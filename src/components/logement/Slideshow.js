@@ -16,12 +16,6 @@ const Slideshow = ({ pictures, title }) => {
 
   return (
     <div className="carousel">
-      <img
-        onClick={nextSlide}
-        src={ArrowRight}
-        alt="flèche droite"
-        className=" arrow arrow-right"
-      />
       {pictures.map((pictures, index) => {
         return (
           <img
@@ -32,17 +26,27 @@ const Slideshow = ({ pictures, title }) => {
           />
         );
       })}
-      <img
-        onClick={prevSlide}
-        src={ArrowLeft}
-        alt="flèche gauche"
-        className=" arrow arrow-left"
-      />
-      <div className="slide-numbers">
-        <span>
-          {slide + 1} / {pictures.length}
-        </span>
-      </div>
+      {pictures.length > 1 && (
+        <>
+          <img
+            onClick={nextSlide}
+            src={ArrowRight}
+            alt="flèche droite"
+            className=" arrow arrow-right"
+          />
+          <img
+            onClick={prevSlide}
+            src={ArrowLeft}
+            alt="flèche gauche"
+            className=" arrow arrow-left"
+          />
+          <div className="slide-numbers">
+            <span>
+              {slide + 1} / {pictures.length}
+            </span>
+          </div>
+        </>
+      )}
     </div>
   );
 };
