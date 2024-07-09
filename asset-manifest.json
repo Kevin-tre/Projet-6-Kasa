@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/projet-6-kasa/static/css/main.f79fd23c.css",
-    "main.js": "/projet-6-kasa/static/js/main.145e5c82.js",
-    "static/js/453.9701a2b0.chunk.js": "/projet-6-kasa/static/js/453.9701a2b0.chunk.js",
-    "static/media/banner-about-us.png": "/projet-6-kasa/static/media/banner-about-us.abab3f12f4cb82f1dfa1.png",
-    "static/media/banner-home.png": "/projet-6-kasa/static/media/banner-home.d00ae7dd3ef927bb988d.png",
-    "index.html": "/projet-6-kasa/index.html",
-    "main.f79fd23c.css.map": "/projet-6-kasa/static/css/main.f79fd23c.css.map",
-    "main.145e5c82.js.map": "/projet-6-kasa/static/js/main.145e5c82.js.map",
-    "453.9701a2b0.chunk.js.map": "/projet-6-kasa/static/js/453.9701a2b0.chunk.js.map"
+    "main.css": "/Projet-6-Kasa/static/css/main.f79fd23c.css",
+    "main.js": "/Projet-6-Kasa/static/js/main.f5f2f3a1.js",
+    "static/js/453.9701a2b0.chunk.js": "/Projet-6-Kasa/static/js/453.9701a2b0.chunk.js",
+    "static/media/banner-about-us.png": "/Projet-6-Kasa/static/media/banner-about-us.abab3f12f4cb82f1dfa1.png",
+    "static/media/banner-home.png": "/Projet-6-Kasa/static/media/banner-home.d00ae7dd3ef927bb988d.png",
+    "index.html": "/Projet-6-Kasa/index.html",
+    "main.f79fd23c.css.map": "/Projet-6-Kasa/static/css/main.f79fd23c.css.map",
+    "main.f5f2f3a1.js.map": "/Projet-6-Kasa/static/js/main.f5f2f3a1.js.map",
+    "453.9701a2b0.chunk.js.map": "/Projet-6-Kasa/static/js/453.9701a2b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f79fd23c.css",
-    "static/js/main.145e5c82.js"
+    "static/js/main.f5f2f3a1.js"
   ]
 }
