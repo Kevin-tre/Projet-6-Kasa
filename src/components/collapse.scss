@@ -77,6 +77,10 @@
     font-size: 18px;
     margin: 0;
     padding: 0 10px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 .open {
