@@ -8,8 +8,8 @@ const Header = () => {
     <header className="header-container">
       <img src={LOGO} alt="Logo du site Kasa" />
       <nav>
-        <Link to="/">Accueil</Link>
-        <Link to="/about-us">A propos</Link>
+        <Link to="/Projet-6-Kasa/">Accueil</Link>
+        <Link to="/Projet-6-Kasa/about-us">A propos</Link>
       </nav>
     </header>
   );
