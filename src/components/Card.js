@@ -8,7 +8,7 @@ const Card = (props) => {
   return (
     <Link
       className="card-link"
-      to={`/Projet-6-Kasa/logement/${logement.id}`}
+      to={`/Projet-7-Kasa/logement/${logement.id}`}
       key={logement.id}
     >
       <div key={logement.id} className="card">

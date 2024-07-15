@@ -17,7 +17,7 @@ const Logement = () => {
     // Trouver le logement correspondant à l'ID dans les données
     const foundLogement = logementsData.find((logement) => logement.id === id);
     if (!foundLogement) {
-      return navigate("/Projet-6-Kasa/error-404");
+      return navigate("/Projet-7-Kasa/error-404");
     } else {
       // Mettre à jour l'état du logement
       setLogement(foundLogement);
