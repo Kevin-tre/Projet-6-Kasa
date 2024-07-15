@@ -11,12 +11,22 @@
     top: 10rem;
     right: 10px;
     z-index: 1;
+
+    @media (max-width: 768px) {
+        top: 12rem;
+        height: 30px;
+    }
 }
 
 .arrow-left {
     top: 10rem;
     left: 10px;
     z-index: 1;
+
+    @media (max-width: 768px) {
+        top: 12rem;
+        height: 30px;
+    }
 }
 
 

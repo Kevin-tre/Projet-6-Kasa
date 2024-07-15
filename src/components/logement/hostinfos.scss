@@ -11,6 +11,7 @@
         font-family: 'Montserrat';
         font-size: 18px;
         font-weight: 500;
+        margin-inline: 20px;
         text-align: right;
         color: #FF6060;
 
@@ -22,6 +23,7 @@
     & img {
         width: 64px;
         height: 64px;
+        border-radius: 50px;
 
         @media (max-width: 768px) {
             width: 32px;
